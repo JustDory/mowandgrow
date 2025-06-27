@@ -1,0 +1,49 @@
+title: My GitHub Pages Site
+description: A personal website powered by Jekyll and the Mundana theme.
+# Change to your site's URL
+url: "http://www.mow-and-grow.ca/"
+# The baseurl is usually '' (empty) for user/organization pages, or '/repo-name' for project pages
+baseurl: ""
+
+# Mundana Jekyll Theme
+remote_theme: wowthemesnet/mundana-jekyll-theme
+
+# Enable the remote theme plugin
+plugins:
+  - jekyll-remote-theme
+
+# Optional: Customize these as you like!
+author: JustDory
+email: your-email@example.com
+
+# Social links (optional)
+social:
+  twitter: yourtwitter
+  github: yourgithub
+  linkedin: yourlinkedin
+
+# Analytics (optional)
+google_analytics: ""
+
+# Exclude files from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Defaults (optional, for post frontmatter)
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "JustDory"
+
+# If you want to use Disqus for comments, add your shortname here
+disqus:
+  shortname: ""
+
+# Build settings
+markdown: kramdown
