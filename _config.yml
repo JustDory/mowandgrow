@@ -35,7 +35,7 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
+  - jekyll-remote-theme
 # Excluded items
 exclude:
   - .sass-cache/
