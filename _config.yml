@@ -1,53 +1,61 @@
 # Site settings
 title: Mow and Grow
-description: Beautiful landscaping services in your area.
-url: "https://www.mow-and-grow.ca"
-baseurl: ""
-og_image: /assets/img/profile-pic.jpg
-google_analytics: "" # Add your Google Analytics Tracking ID
-remote_theme: eliottvincent/bay@v1.2.1
+description: Professional lawn care and landscaping services
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.mow-and-grow.ca" # the base hostname & protocol for your site
+twitter_username: your_twitter_username
+github_username: JustDory
 
-# Header navigation
+# Theme settings
+remote_theme: eliottvincent/bay
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:year/:month/:day/:title:output_ext
+
+# Header configuration
 header:
   pages:
     - name: Home
       slug: /
     - name: Services
-    - name: Gallery
+      slug: /services
+    - name: Gallery  
+      slug: /gallery
     - name: Contact
+      slug: /contact
 
-# Footer settings
+# Footer configuration
 footer:
   show_powered_by: true
   contact:
     - type: email
       name: Email
-      value: Devin.sherrard@gmail.com
+      value: info@mow-and-grow.ca
     - type: phone
       name: Phone
       value: "+1-782-234-1027"
-  follow: []
+      link: "tel:+17822341027"
+  follow:
+    - type: facebook
+      name: Facebook
+      link: "https://facebook.com/mowandgrowca"
+    - type: instagram
+      name: Instagram
+      link: "https://instagram.com/mowandgrowca"
 
-# Build settings
-markdown: kramdown
-sass:
-  style: :compressed
+# Plugins
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-remote-theme
-# Excluded items
+  - jekyll-sitemap
+
+# Exclude from processing
 exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - feed.xml
-  - gemfiles/
   - Gemfile
   - Gemfile.lock
+  - node_modules
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-
-# Used for cache busting
-version: 1
