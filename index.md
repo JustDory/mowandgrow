@@ -1,14 +1,14 @@
 ---
 layout: home
 profile_picture:
-  src: /assets/img/profile-pic.jpg
-  alt: website picture
+  src: /assets/img/lawn-service.jpg
+  alt: Professional lawn care service
 ---
 
 <p>
-  Welcome! This site serves as an example for the Bay Jekyll theme. Bay is a very simple and minimal theme, directly inspired by Dan Grover's <a href="http://dangrover.com">website</a>.
+Welcome to Mow and Grow - your trusted lawn care and landscaping professionals! We provide comprehensive outdoor maintenance services to keep your property looking its best year-round.
 </p>
 
 <p>
-  You can find the source code and the instructions on <a href="https://github.com/eliottvincent/bay">GitHub</a>.
+Our experienced team offers reliable, affordable, and high-quality lawn care services including mowing, trimming, landscaping, and seasonal maintenance. Contact us today for a free estimate!
 </p>
