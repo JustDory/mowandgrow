@@ -2,7 +2,7 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 title: Mow and Grow
 description: Professional lawn care and landscaping services in Halifax, Nova Scotia. Quality maintenance for residential and commercial properties.
-baseurl: "/mowandgrow"
+baseurl: ""
 url: "https://www.mow-and-grow.ca"
 og_image: /assets/img/lawn-service.jpg
 google_analytics: ""
